@@ -15,11 +15,6 @@ group :development do
   gem 'quiet_assets'
 end
 
-group :development do
-  gem 'taps'
-  gem 'rvm'
-end
-
 group :development, :test do
   gem 'rspec-rails'
   gem 'capybara'
